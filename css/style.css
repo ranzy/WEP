@@ -1343,7 +1343,7 @@ a#moveDown {
   }
 }
 
-#hero_video {
+#welcome {
   position: relative;
   background-size: cover;
   color: #fff;
@@ -1355,13 +1355,13 @@ a#moveDown {
   z-index: 99;
   text-align: center;
 }
-#hero_video div {
+#welcome div {
   display: table-cell;
   vertical-align: middle;
   text-align: center;
   padding: 0 10%;
 }
-#hero_video div h3 {
+#welcome div h3 {
   color: #fff;
   font-size: 52px;
   font-size: 3.25rem;
@@ -1370,18 +1370,18 @@ a#moveDown {
   font-weight: 800;
 }
 @media (max-width: 767px) {
-  #hero_video div h3 {
+  #welcome div h3 {
     font-size: 21px;
     font-size: 1.3125rem;
   }
 }
 @media (max-width: 575px) {
-  #hero_video div h3 {
+  #welcome div h3 {
     font-size: 23px;
     font-size: 1.4375rem;
   }
 }
-#hero_video div p {
+#welcome div p {
   font-weight: 300;
   margin: 10px 0 0 0;
   padding: 0 20%;
@@ -1389,11 +1389,11 @@ a#moveDown {
   font-size: 1.5rem;
   line-height: 1.4;
 }
-#hero_video div p strong {
+#welcome div p strong {
   font-weight: 600;
 }
 @media (max-width: 767px) {
-  #hero_video div p {
+  #welcome div p {
     padding: 0;
     font-size: 18px;
     font-size: 1.125rem;
@@ -1429,14 +1429,14 @@ video {
 }
 
 @media (max-width: 1024px) {
-  #hero_video {
-    background: #662d91 url(http://via.placeholder.com/1600x1067/ccc/fff/bg_home_fallback_video.jpg);
+  #welcome {
+    background: #662d91 url(https://ranzy.github.io/wep/img/timeline/WEP2011.JPG);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
   }
-  #hero_video div {
+  #welcome div {
     background-color: black;
     background-color: rgba(0, 0, 0, 0.7);
   }
