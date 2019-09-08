@@ -1507,6 +1507,13 @@ video {
     font-size: 23px;
     font-size: 1.4375rem;
   }
+h4.wep-title { 
+   font-size: 10px!important;
+}
+a.btn_1.outline,
+.btn_1.outline,.btn_sep,.btn_fep {
+  padding: 5px 15px!important;
+}
 }
 .hero_single .wrapper p {
   font-weight: 300;
